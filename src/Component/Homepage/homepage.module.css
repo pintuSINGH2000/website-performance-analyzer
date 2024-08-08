@@ -1,0 +1,142 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(0deg, #121212, #121212),
+    linear-gradient(0deg, #171923, #171923),
+    linear-gradient(0deg, #171923, #171923);
+}
+
+.header {
+  color: #7076d3;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+.inputContainer {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+  width: 40vw;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.analyze {
+  padding: 15px 20px;
+  border-radius: 7px;
+  font-size: 18px;
+  background-color: #7076d3;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+.processor {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px;
+  gap: 10px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.goBack {
+  flex: 10%;
+  color: white;
+  font-size: 20px;
+ 
+}
+
+.back{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.backIcon {
+  font-size: 30px;
+}
+
+.main {
+  display: flex;
+}
+
+.metricContainer {
+  flex: 90%;
+  height: 86vh;
+  overflow: auto;
+}
+
+.metricContainer::-webkit-scrollbar {
+  width: 15px;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  right: 0%;
+}
+.metricContainer::-webkit-scrollbar-thumb {
+  background: rgba(24, 24, 27, 1);
+  background-clip: content-box;
+  border: 3px solid transparent;
+  border-radius: 10px;
+}
+
+.metricContainer::-webkit-scrollbar-track-piece {
+  background-color: white;
+  margin-left: 20px;
+}
+
+.performances {
+  display: flex;
+  padding: 1rem 9rem 2rem 4rem;
+  gap: 5rem;
+  /* justify-content: space-between; */
+}
+
+.performanceCard {
+  min-width: 200px;
+  height: 120px;
+  background: rgba(50, 50, 50, 1);
+  font-size: 25.78px;
+  line-height: 35.1px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.score {
+  font-size: 35px;
+  font-size: 500;
+}
+
+.metric {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  margin: 2rem 4rem;
+  overflow: auto;
+}
